@@ -29,4 +29,5 @@ SVM Accuracy: 92%
 Conclusion
 The project successfully implemented and compared two machine learning models for emotion classification from text samples. Based on the evaluation metrics, the most suitable model was determined 
 
-LINK :- https://colab.research.google.com/drive/1vAt9wVo9TQkB2wYt82brlzFs6r8SSYvx?usp=drive_link
+COLAB LINK :- https://colab.research.google.com/drive/1vAt9wVo9TQkB2wYt82brlzFs6r8SSYvx?usp=drive_link
+PDF LINK :- https://drive.google.com/file/d/19YZzWxjCD8x2aKymqor9Cc3O42cZsXMH/view?usp=drive_link
