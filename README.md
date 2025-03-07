@@ -1,31 +1,36 @@
-NLP Text Classification
-📌 Project Overview
-This project focuses on classifying emotions in text samples using Natural Language Processing (NLP) and Machine Learning techniques. The goal is to develop models that accurately classify emotions and compare their performance using accuracy and F1-score.
+# **NLP Text Classification**  
 
-🚀 Key Features
-✅ Text Preprocessing – Tokenization, Stopword Removal, Lemmatization
-✅ Feature Extraction – TF-IDF Vectorization
-✅ Model Training – Naïve Bayes & Support Vector Machine (SVM)
-✅ Evaluation Metrics – Accuracy, F1-score, Confusion Matrix
+## 📌 Project Overview  
+This project focuses on classifying emotions in text samples using **Natural Language Processing (NLP)** and **Machine Learning** techniques. The goal is to develop models that accurately classify emotions and compare their performance using **accuracy** and **F1-score**.  
 
-📂 Project Structure
-pgsql
+## 🚀 Key Features  
+✅ **Text Preprocessing** – Tokenization, Stopword Removal, Lemmatization  
+✅ **Feature Extraction** – TF-IDF Vectorization  
+✅ **Model Training** – Naïve Bayes & Support Vector Machine (SVM)  
+✅ **Evaluation Metrics** – Accuracy, F1-score, Confusion Matrix  
+
+---
+
+## 📂 Project Structure  
+
+📦 NLP-Text-Classification
+│-- 📂 data # (Optional) Folder for dataset files
+│-- 📂 notebooks # (Optional) Jupyter Notebook experiments
+│-- 📂 models # (Optional) Saved models if needed
+│-- 📄 nlp_text_classification.py # Main Python script
+│-- 📄 requirements.txt # Dependencies for running the project
+│-- 📄 README.md # Project documentation
+
+yaml
 Copy
 Edit
-📦 NLP-Text-Classification  
-│-- 📂 data                 # (Optional) Folder for dataset files  
-│-- 📂 notebooks            # (Optional) Jupyter Notebook experiments  
-│-- 📂 models               # (Optional) Saved models if needed  
-│-- 📄 nlp_text_classification.py  # Main Python script  
-│-- 📄 requirements.txt     # Dependencies for running the project  
-│-- 📄 README.md            # Project documentation  
-💡 If you only have nlp_text_classification.py and README.md, that's fine too!
 
-🛠 Installation & Setup
-1️⃣ Clone the Repository
-bash
-Copy
-Edit
+---
+
+## 🛠 Installation & Setup  
+
+### **1️⃣ Clone the Repository**  
+```bash
 git clone https://github.com/your-username/nlp-text-classification.git
 cd nlp-text-classification
 2️⃣ Install Required Packages
@@ -34,10 +39,10 @@ Create a requirements.txt file with the following content:
 nginx
 Copy
 Edit
-pandas
-numpy
-nltk
-scikit-learn
+pandas  
+numpy  
+nltk  
+scikit-learn  
 Then, install dependencies using:
 
 bash
@@ -64,8 +69,7 @@ The following models were trained:
 
 Naïve Bayes – Probabilistic classifier suited for text classification.
 Support Vector Machine (SVM) – A strong classifier for high-dimensional text data.
-Performance Metrics:
-
+4. Performance Metrics
 Model	Accuracy	F1-Score
 Naïve Bayes	90%	0.89
 SVM	92%	0.91
@@ -83,7 +87,3 @@ Submit a pull request 🚀.
 ⚖️ License
 This project is licensed under the MIT License – feel free to use and modify it.
 
-🎯 Next Steps
-Improve model accuracy using deep learning (LSTMs, Transformers).
-Expand dataset to include more emotions.
-Optimize preprocessing for better text representation.
