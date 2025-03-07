@@ -13,10 +13,12 @@ This project focuses on classifying emotions in text samples using **Natural Lan
 
 ## 📂 Project Structure  
 
-📦 NLP-Text-Classification
-│-- 📂 data # (Optional) Folder for dataset files
-│-- 📂 notebooks # (Optional) Jupyter Notebook experiments
-│-- 📂 models # (Optional) Saved models if needed
-│-- 📄 nlp_text_classification.py # Main Python script
-│-- 📄 requirements.txt # Dependencies for running the project
-│-- 📄 README.md # Project documentation
+```
+📦 NLP-Text-Classification  
+│-- 📂 data                 # (Optional) Folder for dataset files  
+│-- 📂 notebooks            # (Optional) Jupyter Notebook experiments  
+│-- 📂 models               # (Optional) Saved models if needed  
+│-- 📄 nlp_text_classification.py  # Main Python script  
+│-- 📄 requirements.txt     # Dependencies for running the project  
+│-- 📄 README.md            # Project documentation  
+```
