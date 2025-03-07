@@ -1,38 +1,37 @@
-# Emotion Classification in Text Samples  
+# **Emotion Classification in Text Samples**  
 
-## Project Overview  
-This project focuses on classifying emotions in text samples using machine learning techniques.  
-Models such as **Naive Bayes** and **Support Vector Machine (SVM)** were trained and evaluated on text data.  
+## **Project Overview**  
+This project focuses on **classifying emotions in text samples** using machine learning techniques. The goal was to develop models that accurately identify emotions from text and compare their performance using **accuracy** and **F1-score**.  
 
-## Key Steps  
-- **Preprocessing**: Text cleaning, tokenization, and stopword removal.  
-- **Feature Extraction**: TF-IDF Vectorization.  
-- **Model Training**: Naive Bayes and SVM classifiers.  
-- **Evaluation**: Accuracy and F1-score comparison.  
+## **Key Components**  
 
-## Results  
-| Model  | Accuracy |  
+### **1. Data Loading & Preprocessing**  
+- **Text Cleaning**: Removed special characters, punctuation, and converted text to lowercase.  
+- **Tokenization**: Split text into individual words.  
+- **Stopword Removal**: Eliminated common words that do not contribute to classification.  
+
+These preprocessing steps helped improve model performance by reducing noise and standardizing input data.  
+
+### **2. Feature Extraction**  
+Used **TF-IDF Vectorizer** (or **CountVectorizer**) to convert text into numerical features. This transformed each document into **term frequency** or **TF-IDF** values, which were used as inputs for machine learning models.  
+
+### **3. Model Development**  
+Trained and evaluated the following models:  
+✅ **Naïve Bayes** – A probabilistic classifier well-suited for text classification tasks.  
+✅ **Support Vector Machine (SVM)** – A powerful classifier effective with high-dimensional text features.  
+
+### **4. Model Comparison**  
+Evaluated models using **accuracy** and **F1-score**, comparing their effectiveness in emotion classification.  
+
+## **Results**  
+| Model | Accuracy |  
 |--------|----------|  
-| Naive Bayes | 90% |  
+| Naïve Bayes | 90% |  
 | SVM | 92% |  
 
-## How to Use  
-1. Clone this repository:
-2. Open `Emotion_Classification.ipynb` in Jupyter Notebook or Google Colab.  
-3. Install required libraries (if needed):  
+## **Conclusion**  
+The project successfully implemented and compared two machine learning models for **emotion classification** in text. Based on evaluation metrics, **SVM** outperformed Naïve Bayes in accuracy.  
 
-## Links  
+## **Project Links**  
 📌 **Colab Notebook**: [Open in Colab](https://colab.research.google.com/drive/1vAt9wVo9TQkB2wYt82brlzFs6r8SSYvx?usp=sharing)  
 📌 **PDF Report**: [View PDF](https://drive.google.com/file/d/19YZzWxjCD8x2aKymqor9Cc3O42cZsXMH/view?usp=drive_link)  
-
-## Technologies Used  
-- **Python**  
-- **Scikit-learn**  
-- **Pandas**  
-- **Matplotlib**  
-- **TfidfVectorizer**  
-
----
-
-
-
