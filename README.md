@@ -18,7 +18,7 @@ Models such as **Naive Bayes** and **Support Vector Machine (SVM)** were trained
 
 ## How to Use  
 1. Clone this repository:
-2. 2. Open `Emotion_Classification.ipynb` in Jupyter Notebook or Google Colab.  
+2. Open `Emotion_Classification.ipynb` in Jupyter Notebook or Google Colab.  
 3. Install required libraries (if needed):  
 
 ## Links  
